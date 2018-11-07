@@ -1,118 +1,293 @@
-<!doctype html>
-<!-- test -->
-
-<html lang="en" class="no-js">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
-	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<link rel="stylesheet" href="css/demo.css"> <!-- Demo style -->
-  	
-	<title>Responsive Vertical Timeline</title>
+    <title>Josué Freire</title>
+    <link rel="icon" href="images/fav-icon.png">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="stylesheets/materialize.css" rel="stylesheet">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+
 </head>
 <body>
-	<header>
-		<div class="cd-nugget-info">
-			<a href="https://codyhouse.co/gem/vertical-timeline/">
-				<span>
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
-						<style type="text/css">
-							.cd-nugget-info-arrow{fill:#383838;}
-						</style>
-						<polygon class="cd-nugget-info-arrow" points="15,7 4.4,7 8.4,3 7,1.6 0.6,8 0.6,8 0.6,8 7,14.4 8.4,13 4.4,9 15,9 "/>
-					</svg>
-				</span>
-				Article &amp; Download
-			</a>
-		</div> <!-- cd-nugget-info -->
-		<h1>Responsive Vertical Timeline</h1>
-	</header>
+    
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <div class="header-background section">
+        <div id="v-card-holder">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div id="v-card" class="card">
 
-	<section class="cd-timeline js-cd-timeline">
-		<div class="cd-timeline__container">
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<img src="img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline__img -->
+                            <div id="profile" class="right">
+                                <img alt="profile-image" class="img-responsive" src="images/profile.png">
+                                <div class="slant"></div>
+                            </div>
 
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Jan 14</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+                            <div class="card-content">
+                                <div class="info-headings">
+                                    <h4 class="text-uppercase left">Josué Freire</h4>
+                                    <h6 class="text-capitalize left">Linux Enthusiast & Code Newbie</h6>
+                                </div>
+                                <div class="infos">
+                                    <ul class="profile-list">
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">email</i></span>
+                                            <span class="content">josuefreire18@gmail.com</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <span class="title"><i class="material-icons">place</i></span>
+                                            <span class="content">Castêlo da Maia, Porto, Portugal</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--TODO: Aranjar esta merda de separação-->
+                                <div class="infos"></div>
 
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline__img -->
+                                <div class="links">
+                                    <a href="https://www.facebook.com/JosueFreire.n1/" id="first_one"
+                                       class="social btn-floating indigo"><i
+                                            class="fa fa-facebook"></i></a>
+                                    <a href="www.linkedin.com/in/josue-freire" class="social  btn-floating blue darken-3"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    <a href="https://github.com/josuefreire1" class="social  btn-floating orange darken-3"><i
+                                            class="fa fa-git"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Jan 18</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
+<div id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="about-card" class="card">
+                    <div class="card-content">
+                        <p>
+                            Olá! Sou Josué Freire. Aficsionado por Tecnologias, amante de servidores linux e
+                            aprendiz de C/C++.
+                            Apesar de não ter muita formação (licenciatura) na area de informatica, podemos dizer 
+                            que estou à vontade no campo.Deploy de servidores linux, instalação e configuração 
+                            de serviços, administrar sistemas é facil para mim.
+                            Frequentei durante 2 anos uma licensiatura de segurança informatica.
+                            E tenho um curso de gestão de redes e sistemas informaticos.
+                            Fui co-fundador de uma grande comunidade gaming de portugal, onde tive que gerir o site,
+                            o forum, servidores do jogo, metodos de pagamento, implementar metodos anti-DDOS. configurar
+                            firewalls. etc.
+                            Sou um rapaz apto mas sem o "canudo" O que dificulta a minha procura de emprego por meios convencionais.
+                        </p>
+                    </div>
+                    <!--TODO: Aranjar botooos--><!--
+                    <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <a href="#" class="btn waves-effect">Download CV</a>
+                            <a href="#contact" class="btn waves-effect">Contacto</a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<img src="img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Jan 24</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="img/cd-icon-location.svg" alt="Location">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 4</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Feb 14</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
-					<img src="img/cd-icon-location.svg" alt="Location">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 5</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-					<a href="#0" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Feb 18</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Final Section</h2>
-					<p>This is the content of the last section</p>
-					<span class="cd-timeline__date">Feb 26</span>
-				</div> <!-- cd-timeline__content -->
-			</div> <!-- cd-timeline__block -->
-		</div>
-	</section> <!-- cd-timeline -->
-	
-<script src="js/main.js"></script> <!-- Resource JavaScript -->
+<section id="experience" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-graduation-cap"></i>Experiencia</h4>
+        </div>
+        <div id="timeline-experience">
+            <div class="timeline-block">
+                <div class="timeline-dot"><h6>M</h6></div>
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <h6 class="timeline-title">Co-Founder</h6>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Mineiros.pt</small>
+                            </h6>
+                            <h6>
+                                <small>Jun 2012 - Dez 2012</small>
+                            </h6>
+                        </div>
+                        <p>
+                            Bla bla Bla...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"><h6>E</h6></div>
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <h6 class="timeline-title">Moderator/Content Author</h6>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>elementarynow.com</small>
+                            </h6>
+                            <h6>
+                                <small>Abr 2014 - Jul 2014</small>
+                            </h6>
+                        </div>
+                        <p>
+                            Bla Bla Bla...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"><h6>I</h6></div>
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <h6 class="timeline-title">Intern</h6>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>MDS Insure</small>
+                            </h6>
+                            <h6>
+                                <small>Mai 2014 - Jul 2014</small>
+                            </h6>
+                        </div>
+                        <p>
+                            Bla Bla Bla...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"><h6>S</h6></div>
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <h6 class="timeline-title">SIRC</h6>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>ESTGF</small>
+                            </h6>
+                            <h6>
+                                <small>Set 2015 - Jul 2017</small>
+                            </h6>
+                        </div>
+                        <p>
+                            Bla Bla Bla...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"><h6>C</h6></div>
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <h6 class="timeline-title">Frontend Developer</h6>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>clippersales.com</small>
+                            </h6>
+                            <h6>
+                                <small>Nov 2017</small>
+                            </h6>
+                        </div>
+                        <p>
+                            Bla Bla Bla
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"><h6>C</h6></div>
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <h6 class="timeline-title">Automation Operator</h6>
+                        <div class="timeline-info">
+                            <h6>
+                                <small>CTT CPLN</small>
+                            </h6>
+                            <h6>
+                                <small>Abr 2017 - Set 2018</small>
+                            </h6>
+                        </div>
+                        <p>
+                            Bla Bla Bla...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><i class="title-icon fa fa-envelope"></i>Contacto</h4>
+        </div>
+        <div class="row">
+            <div id="contact-card" class="col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <div class="card-content">
+                        <form id="contact-form" name="c-form">
+                            <div class="input-field">
+                                <input id="first_name" type="text" class="validate" name="first_name" required>
+                                <label for="first_name">Nome</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="sub" type="text" class="validate" name="sub">
+                                <label for="sub">Assunto</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="email" type="email" class="validate" name="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="textarea1" class="materialize-textarea" name="message"
+                                          required></textarea>
+                                <label for="textarea1">Mensagem</label>
+                            </div>
+                            <div class="contact-send">
+                                <button id="submit" name="contactSubmit" type="submit" value="Submit"
+                                        class="btn waves-effect">Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="form-loader" class="progress is-hidden">
+                        <div class="indeterminate"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<footer>
+    <div class="container">
+        <p class="text-center">
+            Site feito para provar algo ao
+            <a href="https://filfreire.com/" target="_blank">
+                <strong>Filipe Freire</strong>
+            </a>
+            ... Pois é :p
+        </p>
+    </div>
+</footer>
 </body>
 </html>
