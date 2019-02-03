@@ -1,3 +1,3 @@
 # josuefreire1.github.io
 
-Resume//Personal site
+Resume//Personal site - [josuefreire.com](josuefreire.com)
