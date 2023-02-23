@@ -1,0 +1,280 @@
+body {
+    font-family: "Roboto Mono", sans-serif; 
+    height: 100%;
+    color: #444;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+    color: #101010;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    margin: 20px 0;
+    color: #101010; 
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 50px 0 0 0; 
+    position: relative;
+}
+
+.btn-cl {
+    color: #101010;
+    border: 1px solid #444;
+    padding: 5px 15px;
+    background: transparent;
+    margin-top: 20px;
+    border-radius: 0;
+    outline: none;
+}
+
+.btn-cl:hover, .btn-cl:focus, .btn-cl:active, .btn-cl:visited {
+    color: #444;
+    border: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    font-weight: 400;
+}
+
+.sep-mini {
+    margin-top: 30px;
+    width: 20px;
+    position: relative;
+    height: 1px;
+    background: #101010;
+}
+
+.icon-holder {
+    display: inline-block;
+    position: relative;
+}
+
+.i-size-big {
+    font-size: 60px;
+}
+
+.i-size-med {
+    font-size: 40px;
+}
+
+.i-size-small {
+    font-size: 30px;
+}
+
+.i-size-small:hover{
+
+    color: #646464;
+
+}
+
+.i-size-big, .i-size-med, .i-size-small {
+    color: #101010;
+}
+
+.icon-holder:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: #101010;
+}
+
+.section-holder {
+  border: 1px solid #aaa;
+  padding: 30px 30px 50px; 
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title:before {
+    content: '';
+    position: absolute;
+}
+
+.section-big-title {
+    position: absolute;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    font-size: 180px;
+    font-weight: 700;
+    z-index: -1;
+    margin: 0;
+    color: #ececec;
+}
+
+.header {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+
+.header:after {
+    content: '';
+    background: url('fontes/images/pattern.png');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .8;
+}
+
+.sector {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    color: #fff; 
+    z-index: 1;
+}
+
+.sector .main-title {
+    margin: 30px 0;
+    font-size: 75px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.sector .tagline {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+
+.img-holder {
+    position: relative;
+    margin: 20px 0 30px; 
+}
+
+.tooltip-cl {
+    display: inline;
+    position: relative;
+}
+
+.tooltip-cl:hover:after {
+    background: #101010;
+    bottom: 35px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    content: attr(data-tooltip);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 110px;
+}
+
+.time-line {
+    position: relative;
+}
+
+.time-item {
+    padding: 15px 0;
+    position: relative;
+}
+
+.time-year {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 40px;
+    color: #d9d9d9;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.icon-holder-time {
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: -30px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: #fff;
+    font-size: 30px;
+    line-height: 0;
+    padding: 0 1px;
+    border-radius: 50%;
+}
+
+
+
+.line-art-top{
+    position: absolute;
+    top:0;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    margin-top: -14px;
+}
+
+.line-art-bottom{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    margin-bottom: -14px;
+}
+
+.line-art-left{
+    position: absolute;
+    top:50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 5px;
+}
+
+.line-art-right{
+    position: absolute;
+    top:50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-right: 5px;
+}
+
+.line-art-top div, .line-art-bottom div, .line-art-left div, .line-art-right div{
+    background: #101010;
+    width: 10px;
+    height: 1px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.line-art-top div:nth-child(1), .line-art-top div:nth-child(2), .line-art-top div:nth-child(3), .line-art-top div:nth-child(4),
+.line-art-bottom div:nth-child(1), .line-art-bottom div:nth-child(2), .line-art-bottom div:nth-child(3), .line-art-bottom div:nth-child(4),
+.line-art-left div:nth-child(1), .line-art-left div:nth-child(2), .line-art-left div:nth-child(3), .line-art-left div:nth-child(4),
+.line-art-right div:nth-child(1), .line-art-right div:nth-child(2), .line-art-right div:nth-child(3), .line-art-right div:nth-child(4){
+    margin: 5px;
+}
+
+.texture{
+    background: url("fontes/images/texture.png");
+}
